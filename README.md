@@ -1,21 +1,33 @@
 # AgentHive: Autonomous Enterprise Operations Swarm
 
+## Live Demo
+
+https://agenthive-autonomous-enterprise-swarm-5ya3kdqsupfz5yteuqtg2v.streamlit.app
+
+---
+
 ## Problem Statement
 
-Enterprise teams spend significant time resolving repetitive incidents, searching knowledge bases, and coordinating tasks across teams.
+Enterprise IT teams spend significant time resolving repetitive incidents, searching knowledge bases, validating solutions, and coordinating across multiple systems.
 
-Traditional AI assistants rely on a single agent and struggle with complex workflows.
+Traditional AI assistants operate as single agents and struggle with complex workflows requiring planning, retrieval, reasoning, and validation.
+
+---
 
 ## Solution
 
-AgentHive uses a swarm of specialized AI agents:
+AgentHive is a Multi-Agent AI Swarm that orchestrates specialized agents to collaboratively solve enterprise incidents.
+
+The swarm consists of:
 
 * Planner Agent
 * Retriever Agent
 * Resolver Agent
 * Validator Agent
 
-These agents collaborate to analyze requests, retrieve knowledge, generate resolutions, and validate outputs.
+Each agent performs a dedicated task and contributes to the final response.
+
+---
 
 ## Architecture
 
@@ -41,34 +53,73 @@ Validator Agent
 
 Final Response
 
+---
+
+## Agent Responsibilities
+
+### Planner Agent
+
+Breaks incidents into actionable tasks.
+
+### Retriever Agent
+
+Retrieves relevant enterprise knowledge.
+
+### Resolver Agent
+
+Generates recommended resolutions.
+
+### Validator Agent
+
+Validates the generated solution and assigns confidence.
+
+---
+
 ## Technology Stack
 
 * Python
 * Streamlit
 * LangGraph
 * OpenAI / Azure OpenAI
-* FAISS
+* FAISS Vector Search
+* GitHub
+* Streamlit Cloud
+
+---
 
 ## Dataset
 
-The project includes a sample enterprise incident dataset containing:
+The project contains enterprise IT incidents including:
 
 * VPN Issues
 * Outlook Issues
 * Password Resets
 * Printer Problems
-* Teams Login Issues
+* Teams Login Failures
+
+---
+
+## Deployment
+
+Public Demo:
+
+https://agenthive-autonomous-enterprise-swarm-5ya3kdqsupfz5yteuqtg2v.streamlit.app
+
+---
 
 ## Future Enhancements
 
 * Azure OpenAI Integration
-* Azure AI Search
-* Dynamic Agent Creation
-* Agent Voting System
 * Enterprise RAG
+* Agent Voting
+* Dynamic Agent Creation
+* Agent Memory
+* Multi-Agent Collaboration
+
+---
 
 ## Team
 
 Dhruthi S
 
-Microsoft Build AI 2026
+Microsoft Build AI 2026 Submission
