@@ -1,5 +1,5 @@
 def validate(answer):
     return {
-        "confidence": 95,
-        "status": "validated"
+        "status": "Validated",
+        "confidence": 95
     }
