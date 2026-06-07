@@ -1,9 +1,7 @@
 def planner(ticket):
-    return {
-        "plan": [
-            "Classify issue",
-            "Retrieve knowledge",
-            "Generate resolution",
-            "Validate response"
-        ]
-    }
+    return [
+        "Classify incident",
+        "Retrieve enterprise knowledge",
+        "Generate resolution",
+        "Validate response"
+    ]
