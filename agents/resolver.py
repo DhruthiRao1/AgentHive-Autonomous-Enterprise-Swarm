@@ -1,2 +1,2 @@
 def resolve(ticket, kb):
-    return f"Resolution generated for: {ticket}"
+    return f"Recommended resolution for '{ticket}' based on {kb}"
