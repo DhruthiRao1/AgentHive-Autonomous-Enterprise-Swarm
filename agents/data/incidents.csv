@@ -1,0 +1,7 @@
+ticket,resolution,category,priority
+VPN not connecting after update,Reset VPN Adapter and restart device,Network,Medium
+Outlook crashing on startup,Create new Outlook profile,Email,Medium
+Password expired,Reset password and unlock account,Identity,High
+Printer not responding,Restart Print Spooler service,Hardware,Low
+Cannot access shared drive,Verify permissions and reconnect drive,Access,Medium
+Microsoft Teams login issue,Clear cache and re-authenticate,Collaboration,Medium
